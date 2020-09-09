@@ -1,5 +1,6 @@
 #include<iostream>
 #include<vector>
+
 using namespace std;
 
 int main()
@@ -25,6 +26,10 @@ int main()
         list.push_back(item);
     }
   }while( input != 'q' && input != 'Q' );
-    
+
+  for(auto item : list) {
+    cout << item << endl;
+  }
+
   return 0;
 }
