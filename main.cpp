@@ -27,8 +27,8 @@ int main()
     }
   }while( input != 'q' && input != 'Q' );
 
-  for(auto item : list) {
-    cout << item << endl;
+  for(int i=0; i < list.size(); i++) {
+    cout << list[i] << endl;
   }
 
   return 0;
